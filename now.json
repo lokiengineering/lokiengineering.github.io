@@ -1,8 +1,0 @@
-{
-  "name": "loki-sh",
-  "alias": "loki.sh",
-  "static": {
-    "cleanUrls": true,
-    "trailingSlash": false
-  }
-}

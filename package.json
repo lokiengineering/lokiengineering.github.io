@@ -1,0 +1,21 @@
+{
+  "name": "loki.sh",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "now && now alias"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lokiengineering/lokiengineering.github.io.git"
+  },
+  "now": {
+    "type": "static",
+    "name": "loki-sh",
+    "alias": "loki.sh",
+    "static": {
+      "cleanUrls": true,
+      "trailingSlash": false
+    }
+  },
+  "license": "MIT"
+}
